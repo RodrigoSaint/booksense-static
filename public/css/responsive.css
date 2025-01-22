@@ -1,0 +1,431 @@
+/*responsive styles*/
+
+@media (max-width: 1140px) {
+  body {
+    background-position-y: 0 !important;
+  }
+
+  #fp-nav {
+    display: none;
+  }
+
+  .social-icons,
+  #logo {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+
+  .social-support {
+    position: unset;
+  }
+
+  .video-presentation iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  .fp-slidesNav {
+    margin-left: -45% !important;
+    left: 50%;
+    bottom: 0;
+    top: 55%;
+  }
+
+  .sidr-open .wrap,
+  .wrap {
+    width: 90%;
+  }
+
+  #section5 .fp-slidesNav {
+    display: none;
+  }
+
+  #hand {
+    left: auto;
+    right: 0;
+    margin-left: inherit;
+  }
+
+  .screenshots-wrapper,
+  .section-image {
+    left: auto;
+    right: 89px;
+    margin-left: inherit;
+  }
+}
+
+@media (max-width: 870px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 40px;
+  }
+
+  .download-btns {
+    display: flex;
+    margin-bottom: 70px;
+  }
+
+  #touch-text {
+    padding-bottom: 50px;
+  }
+
+  .content-wrap section {
+    padding: 0;
+  }
+
+  .box-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  #logo a img {
+    max-width: 120px;
+  }
+
+  #hand {
+    margin-top: -255px;
+    margin-right: 15px;
+    width: 650px;
+    height: 850px;
+  }
+
+  .screenshots-wrapper,
+  .section-image {
+    margin-top: -245px;
+    margin-right: -8px;
+    width: 200px;
+    height: 435px;
+  }
+
+  .screenshots-wrapper img,
+  .section-image img {
+    max-height: 490px;
+    margin-bottom: 95px;
+  }
+
+  .fp-tableCell {
+    vertical-align: bottom;
+  }
+
+  .section {
+    display: flex;
+    align-items: end;
+  }
+
+  .wrap {
+    width: 100%;
+  }
+
+  .wrap .box {
+    z-index: 10;
+    position: sticky;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  .download-now {
+    margin-bottom: 60px !important;
+  }
+
+  #features-text {
+    padding-bottom: 50px;
+  }
+
+  #available-text,
+  #about-text,
+  #video-title,
+  #download-text,
+  .features {
+    display: none;
+  }
+
+  .tabs {
+    min-height: 200px;
+  }
+
+  .video-presentation iframe {
+    width: 82%;
+    margin-bottom: 75px;
+    border-radius: 10px;
+  }
+
+  .sidr-open .wrap .box,
+  .box {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  #menu-logo {
+    display: none;
+  }
+
+  .sidr ul {
+    margin-top: 35%;
+  }
+
+  #sidr {
+    width: 200px;
+    z-index: 100;
+  }
+
+  .simple-button {
+    float: none;
+    display: block;
+    font-size: 14px;
+    max-width: 180px;
+    margin: 5px auto;
+  }
+
+  .sidr ul li a,
+  .sidr ul li span {
+    font-size: 11px;
+    padding: 0 18px;
+  }
+
+  .features {
+    margin-top: 10px;
+    width: 50%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .sidr-open #main-nav {
+    left: 14px;
+    z-index: 200;
+  }
+
+  .tabs-style-linemove nav a {
+    padding: 15px 0;
+  }
+
+  .client-name {
+    float: left;
+  }
+
+  .fp-slidesNav {
+    margin-left: -5% !important;
+    left: 50%;
+    bottom: 0;
+    top: 55%;
+  }
+
+  .specifications {
+    text-align: center;
+  }
+
+  .active .screenshots-wrapper {
+    opacity: 1;
+    overflow: visible;
+    display: block;
+    padding: 10px;
+    max-width: 180px;
+    right: 50%;
+    margin-right: -100px;
+    border-radius: 7px;
+    height: auto;
+  }
+
+  .fp-controlArrow.fp-next {
+    right: -30px;
+    width: 20px;
+  }
+
+  .fp-controlArrow.fp-prev {
+    left: -30px;
+    width: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 26px;
+    line-height: 1;
+  }
+
+  #preloader img {
+    width: 200px;
+  }
+
+  .sidr-open .wrap .box,
+  .box {
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.2;
+  }
+
+  .simple-button .icon {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+
+  .playstore,
+  .appstore {
+    margin-top: -4px;
+  }
+
+  .simple-button {
+    float: none;
+    display: block;
+    font-size: 11px;
+    max-width: 100px;
+    margin: 5px auto;
+    padding: 10px 15px;
+  }
+
+  #logo {
+    top: 3%;
+  }
+
+  #logo img {
+    max-width: 120px;
+  }
+
+  .tooltip-inner .icon {
+    float: left;
+    display: block;
+    font-size: 14px;
+    height: AUTO;
+    margin-right: 5px;
+    line-height: inherit;
+  }
+
+  .tooltip-inner {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 20px;
+    min-height: inherit;
+  }
+
+  #main-nav {
+    left: 10px;
+    top: 1%;
+    font-size: 32px;
+  }
+
+  #main-nav:hover span {
+    color: inherit !important;
+  }
+
+  .sidr ul li {
+    line-height: 35px;
+  }
+
+  .fp-slidesNav {
+    top: -1%;
+    left: 37%;
+  }
+
+  .social-icons a i {
+    font-size: 11px;
+    width: 21px;
+    height: 21px;
+    line-height: 22px;
+  }
+
+  .package {
+    padding: 15px 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .amount {
+    font-size: 15px;
+    line-height: 1;
+  }
+
+  .specifications {
+    list-style: none;
+    text-align: left;
+    margin: 10px 5px;
+  }
+
+  .pricing-button {
+    padding: 15px 0;
+  }
+
+  .specifications .icon {
+    display: none;
+  }
+
+  #contact-form textarea,
+  #contact-form input {
+    font-size: 11px;
+    margin-right: 3%;
+    padding: 5px;
+  }
+
+  #contact-form textarea {
+    height: 50px;
+  }
+
+  #submit {
+    padding: 8px 17px;
+    font-size: 11px;
+  }
+
+  .tabs nav ul li {
+    display: inline-block;
+  }
+
+  #contact-form {
+    float: left;
+    margin-top: 10px;
+  }
+
+  #section8 .features {
+    margin-top: 0;
+  }
+
+  .active .screenshots-wrapper {
+    max-width: 240px;
+    margin-top: -255px;
+    margin-right: -31%;
+  }
+
+  #section4 .wrap .clients-content .box .fp-controlArrow.fp-next {
+    right: 30px;
+    top: 13%;
+  }
+
+  #section4 .wrap .clients-content .box .fp-controlArrow.fp-prev {
+    left: 30px;
+    top: 13%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 640px) and (max-height: 960px) {
+  .fp-slidesNav {
+    top: 2%;
+    left: 42%;
+  }
+
+  .active .screenshots-wrapper {
+    margin-right: -33%;
+  }
+
+  .screenshots-wrapper img,
+  .section-image img {
+    margin-bottom: 97px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 640px) and (max-height: 800px) {
+  .fp-slidesNav {
+    top: -8%;
+    left: 33%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 640px) and (max-height: 670px) {
+  .fp-slidesNav {
+    top: -13%;
+    left: 37%;
+  }
+}
